@@ -24,9 +24,7 @@ client.on("messageCreate", (message) => {
 
 // login
 client
-  .login(
-    "MTI3NTQ3NTc4MTQ4ODg2OTUxOA.GkvRbu.yTzbbwBzf_Hb8Lnm42zpnOZU_UUCk6Qx37mzmA"
-  )
+  .login("token")
   .then(() => {
     console.log("is work");
   })
